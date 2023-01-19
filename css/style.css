@@ -251,3 +251,8 @@ footer{
 .colorblack{
   color: rgba(64, 66, 64, 0.484);
 }
+
+ul {
+  padding: 0%;
+  list-style:none;
+}
