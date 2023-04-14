@@ -294,10 +294,30 @@ body {
   min-height: 3.125em;
   scrollbar-color: red;
   overflow: auto;
-
-
   overflow: auto;
   resize: none;
+}
+
+footer {
+  background: linear-gradient(
+    #f3f5fc,
+    #a4a4c1,
+    #f3f5fc
+  ); /*(#f3f5fc,#000000); */
+  position: absolute;
+  bottom: 0;
+  width: 92.24%;
+  height: 2%;
+  color: black;
+  border: none;
+  border-radius: 1em;
+  text-align: center;
+  right: 3.88%;
+  left: 3.88%;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  font-family: "Source Code Pro", monospace;
 }
 
 /*MEDIA QUERIES PARA CONFIGURAR LA PANTALLA*/
@@ -338,7 +358,6 @@ body {
     background: transparent;
     box-shadow: 10px 1px 3px -15px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
-    
   }
   .mensaje-no-encontrado {
     width: 100%;
@@ -371,7 +390,6 @@ body {
     order: 1;
     align-self: stretch;
     flex-grow: 0;
-
   }
 
   /*   MUNIECO - IMAGEN DERECHA*/
@@ -387,7 +405,7 @@ body {
     gap: 0.5em;
     position: absolute;
     width: 100%;
-    height: 1.20%;
+    height: 1.2%;
     top: 50%;
     left: 4.26%;
     margin-left: 4.25%;
@@ -415,15 +433,14 @@ body {
 
   /*  FRAME 3 - BOTONES ENCRIPTAR - DESENCRIPTAR*/
   .frame3 {
-    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     position: absolute;
-    width: 91.48%;    
+    width: 91.48%;
     height: 16.93%;
     top: 51.98%;
-    left: 4.26%;   
+    left: 4.26%;
   }
   .encriptar {
     display: flex;
@@ -442,8 +459,6 @@ body {
     flex-grow: 0;
     margin: 5% 0 0 4.25%;
     left: 4.26%;
-    
-    
   }
   .encriptar:hover {
     background: #083367;
@@ -564,7 +579,7 @@ body {
     float: left;
     box-sizing: border-box;
     flex-direction: row;
-    align-items: center;    
+    align-items: center;
     width: 74.47%;
     height: 14.86%;
     border: 1px solid #0a3871;
@@ -613,6 +628,6 @@ body {
     align-self: stretch;
     flex-grow: 0;
     left: 12.27%;
-    padding: 0;;
+    padding: 0;
   }
 }
