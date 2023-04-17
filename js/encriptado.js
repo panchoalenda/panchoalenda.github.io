@@ -81,7 +81,7 @@ function decodificar() {
 function verificador(event) {
     var charCode = event.keyCode || event.which;
     var charStr = String.fromCharCode(charCode);
-    var regex = /^[a-zA-Z0-9]+$/;
+    var regex = /^[a-z0-9]+$/;
     if (!regex.test(charStr)) {
         event.preventDefault();
         return false;
